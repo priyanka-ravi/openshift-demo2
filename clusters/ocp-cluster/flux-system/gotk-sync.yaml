@@ -8,8 +8,6 @@ spec:
   interval: 10s
   ref:
     branch: main
-  #secretRef:
-  #  name: flux-system
   url: https://github.com/priyanka-ravi/openshift-demo2
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
